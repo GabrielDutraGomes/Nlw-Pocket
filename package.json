@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "inquirer": "^10.2.2"
+  },
+  "name": "nlw-pocket",
+  "version": "1.0.0",
+  "description": "Meta app",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielDutraGomes/Nlw-Pocket.git"
+  },
+  "keywords": [
+    "Nlw"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GabrielDutraGomes/Nlw-Pocket/issues"
+  },
+  "homepage": "https://github.com/GabrielDutraGomes/Nlw-Pocket#readme"
+}
