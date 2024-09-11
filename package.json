@@ -6,7 +6,6 @@
   "version": "1.0.0",
   "description": "Meta app",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "node index.js"
   },
