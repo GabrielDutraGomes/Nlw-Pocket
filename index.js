@@ -19,10 +19,11 @@ const cadastrarMeta = async() => {
     metas.push({value: meta, checked: false})
 }
 
-const listarMetas = async() => {
+const listarMetas = async () => {
     const respostas = await checkbox({
         message: "Use as setas para mudar de meta,o espaço para marcar ou desmarcar e o enter para finalizar",
-        choices: [...metas]
+        choices: [...metas],
+        instructions: false,
     })
 
     if(respostas.length == 0) {
@@ -30,13 +31,19 @@ const listarMetas = async() => {
         return
     }
 
+    metas.forEach((m) => {
+        m.checked = false
+    })
+
     respostas.forEach((resposta) => {
         const meta = metas.find((m) => {
             return m.value == resposta
         })
 
-        meta.checked = true      //aula 2 parou em 50:51
+        meta.checked = true      
     });
+
+    console.log('meta(s) concluida(s)')
 }
 
 const start = async () => {
