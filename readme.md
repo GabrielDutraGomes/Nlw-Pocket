@@ -15,4 +15,4 @@
 # How to use
 ## clone this repository
 ### use node js
-#### with the shell terminal open in the project folder, run the node index.js command
+#### With the shell terminal open in the project folder, run the 'npm install' command to add all project dependencies and then run 'node index.js'
